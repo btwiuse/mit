@@ -1,6 +1,6 @@
 [package]
 name = "mit"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "MIT license generator"
 license = "MIT"
@@ -12,4 +12,6 @@ name = "mit"
 path = "main.rs"
 
 [dependencies]
-handlebars = "4.2.1"
+handlebars = "4.2"
+chrono = "0.4"
+clap = { version = "3.0", features = ["derive"] }
