@@ -1,15 +1,20 @@
 [package]
 name = "mit"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "MIT license generator"
 license = "MIT"
+documentation = "https://docs.rs/mit"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
 name = "mit"
 path = "main.rs"
+
+[lib]
+name = "mit"
+path = "lib.rs"
 
 [dependencies]
 handlebars = "4.2"
