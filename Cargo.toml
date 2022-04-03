@@ -1,11 +1,12 @@
 [package]
 name = "mit"
-version = "0.1.5-1"
+version = "0.1.6"
 edition = "2021"
 description = "MIT{,-0} license generator"
 license = "MIT"
 documentation = "https://docs.rs/mit"
 readme = "README.md"
+categories = ["command-line-utilities"]
 repository = "https://github.com/btwiuse/mit"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -22,3 +23,7 @@ path = "lib.rs"
 handlebars = "4.2"
 chrono = "0.4"
 clap = { version = "3.0", features = ["derive"] }
+
+[badges]
+travis-ci = { repository = "btwiuse/mit", branch = "master" }
+maintenance = { status = "experimental" }

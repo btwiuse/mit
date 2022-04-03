@@ -1,4 +1,9 @@
-# mit
+mit
+===
+
+[![crates.io](https://img.shields.io/crates/v/mit.svg)](https://crates.io/crates/mit)
+[![Documentation](https://docs.rs/mit/badge.svg)](https://docs.rs/mit)
+[![Build Status](https://travis-ci.org/btwiuse/mit.svg?branch=master)](https://travis-ci.org/btwiuse/mit)
 
 mit is an MIT{,-0} license generator
 
