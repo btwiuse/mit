@@ -1,8 +1,8 @@
 [package]
 name = "mit"
-version = "0.1.4"
+version = "0.1.5-1"
 edition = "2021"
-description = "MIT license generator"
+description = "MIT{,-0} license generator"
 license = "MIT"
 documentation = "https://docs.rs/mit"
 readme = "README.md"
