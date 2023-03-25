@@ -98,7 +98,10 @@ const TEMPLATE_ZERO: &str = include_str!("./templates/MIT-0.hbs");
     version
 )]
 pub struct App {
-    /// year, optional, defaults to current year
+    /// write result to file
+    #[clap(short = 'o', long = "output", help = "Write to file")]
+    pub output: Option<String>,
+    /// use the MIT No Attribution (MIT-0) variant
     #[clap(short = '0', long = "zero", help = "Use MIT-0 variant")]
     pub zero: bool,
     /// year, optional, defaults to current year
