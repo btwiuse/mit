@@ -9,19 +9,16 @@ mit is an MIT{,-0} license generator
 
 ```
 $ mit --help
-mit 0.1.5
-btwiuse <btwiuse@gmail.com>
 generate MIT{,-0} license
 
-USAGE:
-    mit [OPTIONS] --author <AUTHOR>
+Usage: mit [OPTIONS] --author <AUTHOR>
 
-OPTIONS:
-    -0, --zero               Use MIT-0 variant
-    -a, --author <AUTHOR>    Set author name
-    -h, --help               Print help information
-    -V, --version            Print version information
-    -y, --year <YEAR>        Set year
+Options:
+  -0, --zero             Use MIT-0 variant
+  -y, --year <YEAR>      Set year [optional]
+  -a, --author <AUTHOR>  Set author name
+  -h, --help             Print help
+  -V, --version          Print version
 ```
 
 ## Install
@@ -38,7 +35,7 @@ Print license content
 $ mit --author btwiuse
 MIT License
 
-Copyright (c) 2022 btwiuse
+Copyright (c) btwiuse
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -65,7 +62,7 @@ Use [MIT-0](https://github.com/aws/mit-0) variant
 $ mit -0 --author btwiuse
 MIT No Attribution
 
-Copyright (c) 2022 btwiuse
+Copyright (c) btwiuse
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software

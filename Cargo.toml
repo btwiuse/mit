@@ -1,6 +1,6 @@
 [package]
 name = "mit"
-version = "0.1.7"
+version = "0.1.8"
 edition = "2021"
 description = "MIT{,-0} license generator"
 license = "MIT"
@@ -20,8 +20,8 @@ name = "mit"
 path = "lib.rs"
 
 [dependencies]
-handlebars = "4.2"
-clap = { version = "4.1", features = ["derive"] }
+handlebars = "4.3"
+clap = { version = "4.3", features = ["derive"] }
 
 [badges]
 travis-ci = { repository = "btwiuse/mit", branch = "master" }
